@@ -7,6 +7,14 @@
     {
       "path": "/contact",
       "layout": "contact-page"
+    },
+    {
+      "path": "/products",
+      "layout": "products-listing"
+    },
+    {
+      "path": "/products/{{product}}",
+      "layout": "products-detail"
     }
   ]
 }
