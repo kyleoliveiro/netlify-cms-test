@@ -1,2 +1,11 @@
-path: test/path
-layout: test-layout
+routes:
+  - layout: home-page
+    path: /
+  - layout: contact-page
+    path: /contact
+  - layout: products-listing
+    path: /products
+  - layout: products-detail
+    path: '/products/{{product}}'
+  - layout: page
+    path: /products/warranty
