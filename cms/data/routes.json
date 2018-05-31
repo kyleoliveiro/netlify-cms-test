@@ -3,6 +3,10 @@
     {
       "path": "/",
       "layout": "home-page"
+    },
+    {
+      "path": "/contact",
+      "layout": "contact-page"
     }
   ]
 }
