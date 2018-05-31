@@ -1,11 +1,11 @@
 routes:
   - layout: home-page
     path: /
-  - layout: contact-page
+  - layout: page
     path: /contact
   - layout: products-listing
     path: /products
   - layout: products-detail
     path: '/products/{{product}}'
   - layout: page
-    path: /products/warranty
+    path: '/products/{{product}}/warranty'
