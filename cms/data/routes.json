@@ -1,1 +1,8 @@
-{}
+{
+  "routes": [
+    {
+      "path": "/",
+      "layout": "home-page"
+    }
+  ]
+}
